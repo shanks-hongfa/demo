@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.paimai.reactnative.RNControllerActivity">
+
+    <EditText
+        android:id="@+id/js_name"
+        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="JS file name"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/module_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="module name"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/bundle_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="bundle assets name"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/server_host"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="debug server host"
+        android:gravity="center"/>
+
+    <CheckBox
+        android:id="@+id/enable_dev_support"
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="enable dev support"/>
+
+    <Button
+        android:id="@+id/launch_rn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="launch"/>
+
+
+</LinearLayout>

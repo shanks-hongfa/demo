@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.paimai.auctiondemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".ShanksApplication"
+        android:allowBackup="false"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".demo.Activity.TouchSystemTestActivity"
+            android:label="@string/title_activity_touch_system_test"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".demo.Activity.ProgressBarActivity"
+            android:label="@string/title_activity_progress_bar"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".demo.Activity.FlowLayoutActivity"
+            android:label="@string/title_activity_flow_layout"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".demo.Activity.RefreshableLayoutActivity"
+            android:label="@string/title_activity_refreshable_layout"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".demo.Activity.UIKitTestActivity"
+            android:label="@string/title_activity_uikit_test" >
+        </activity>
+        <activity
+            android:name=".demo.Activity.PhenixActivity"
+            android:label="@string/title_activity_phenix" >
+        </activity>
+    </application>
+
+</manifest>

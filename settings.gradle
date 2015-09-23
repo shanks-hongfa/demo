@@ -1,0 +1,1 @@
+include ':app', ':mylibrary', ':urirouter', ':reactnative', ':shanks_hello'

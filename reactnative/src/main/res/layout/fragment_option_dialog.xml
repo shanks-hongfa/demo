@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="4dp"
+        android:background="#FFAAAAAA"/>
+    <CheckBox
+        android:id="@+id/enable_dev_support"
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="enable dev support"/>
+    <CheckBox
+        android:id="@+id/auto_load"
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="auto reload on JS change"/>
+    <Button
+        android:id="@+id/open_dev_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="open dev panel"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="4dp"
+        android:background="#FFAAAAAA"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reload_js"
+        android:text="Reload"/>
+    <!--<EditText-->
+        <!--android:id="@+id/js_name"-->
+        <!--android:layout_marginTop="32dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="JS file name"-->
+        <!--android:gravity="center"/>-->
+    <!--<EditText-->
+        <!--android:id="@+id/module_name"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="module name"-->
+        <!--android:gravity="center"/>-->
+    <!--<EditText-->
+        <!--android:id="@+id/bundle_name"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="bundle assets name"-->
+        <!--android:gravity="center"/>-->
+    <!--<EditText-->
+        <!--android:id="@+id/server_host"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="debug server host"-->
+        <!--android:gravity="center"/>-->
+    <!--<Button-->
+        <!--android:id="@+id/reload_bundle"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="reload bundle file"/>-->
+
+</LinearLayout>

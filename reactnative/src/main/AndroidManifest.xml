@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.paimai.reactnative" >
+
+    <application
+        android:allowBackup="false"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".RNMainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+        <activity
+            android:name=".RNControllerActivity"
+            android:label="@string/title_activity_rncontroller" >
+        </activity>
+    </application>
+
+</manifest>

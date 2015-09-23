@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.paimai.auctiondemo.demo.Activity.ProgressBarActivity">
+
+    <com.paimai.auctiondemo.demo.View.AuctionProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/edit_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="progress(0-100)"
+        android:text="10"/>
+    <Button
+        android:id="@+id/progress_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="update"/>
+    <EditText
+        android:id="@+id/edit_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="add focus(0-100)"
+        android:text="33"/>
+    <Button
+        android:id="@+id/add_focus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"/>
+    <Button
+        android:id="@+id/remove_focus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="remove existing focus"/>
+
+</LinearLayout>
