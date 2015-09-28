@@ -30,8 +30,6 @@ dependencies {
     compile 'com.taobao.android:uikit_extends:2.4.1@aar'
     compile 'com.taobao.android:phenix:2.2.1'
     compile project(":urirouter")
-    compile project(":mylibrary")
-    compile project(":reactnative")
-    compile project(":shanks_hello")
+    compile project(":goldmap")
 }
 /////gradle how to do something

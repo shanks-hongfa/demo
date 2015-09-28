@@ -2,7 +2,6 @@ package com.paimai.auctiondemo;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,19 +14,9 @@ import com.paimai.auctiondemo.demo.Activity.ProgressBarActivity;
 import com.paimai.auctiondemo.demo.Activity.RefreshableLayoutActivity;
 import com.paimai.auctiondemo.demo.Activity.TouchSystemTestActivity;
 import com.paimai.auctiondemo.demo.Activity.UIKitTestActivity;
-import com.paimai.auctiondemo.demo.Utils.LogUtil;
 import com.paimai.auctiondemo.demo.Utils.dp2px;
 import com.paimai.auctiondemo.demo.View.RefreshableLayout.RefreshableLayout;
-import com.paimai.reactnative.RNControllerActivity;
-import com.paimai.reactnative.RNMainActivity;
-import com.paimai.reactnative.RNPathConfig;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.List;
 
 public class MainActivity extends Activity {
 
@@ -98,7 +87,7 @@ public class MainActivity extends Activity {
                 UriManager.open(MainActivity.this, "shanks://shanks.uri/mylibrary/main");
             }
         });
-        add("ReactNative HelloWorld", new View.OnClickListener() {
+      /*  add("ReactNative HelloWorld", new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, RNMainActivity.class));
@@ -109,7 +98,7 @@ public class MainActivity extends Activity {
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, RNControllerActivity.class));
             }
-        });
+        });*/
         add("main-fakes", new View.OnClickListener() {
             @Override
             public void onClick(View v) {

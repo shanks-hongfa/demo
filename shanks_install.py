@@ -42,7 +42,6 @@ def shanks_print(value, round):
 def generate_module(rootDir, name, size):
     for lists in os.listdir(rootDir):
         path = os.path.join(rootDir, lists)
-       # print path
         if os.path.isdir(path):
             # print name+path[size:]
             print '------ is dir -------'
@@ -118,7 +117,7 @@ def render_build_gradle(name):
             break
         str = file.readline()
         content = content + str
-
+    file.close()
 
 def check_build_gradle(content, line, file, name):
     shanks_print('check_build_gradle', '*')
@@ -143,7 +142,9 @@ def check_build_gradle(content, line, file, name):
                 str = str.replace('}', '\n    ' + replace + '\n}')
             content = content + str
             break
+        #shanks_print(str,"%%%%")
         if replace in str:
+            shanks_print(str,"%%%%")
             file.close()
             return
         content = content + str
@@ -207,9 +208,12 @@ def remove_module_from_file(name, path, replace):
     while str:
         if name in str:
             shanks_print(str, '*')
-            str = re.sub(regex, '', str.strip())
+            strTemp=str.strip()
+            str = re.sub(regex, '', strTemp)
             print str
-            flag = True
+            print strTemp
+            if strTemp != str:
+                flag = True
         content = content + str
         str = file.readline()
     file.close()
@@ -247,6 +251,12 @@ def remove_force_module(name):
             os.remove(path)
 
 # install_module("mylibraryssslll")
-install_module("shanks_hello")
-uninstall_module("shanks_happy")
+#install_module("test")
+#install_module("map")
+   # compile project(":mylibrary")
+   #  compile project(":reactnative")
+   #  compile project(":shanks_hello")
+# uninstall_module("mylibrary")
+# uninstall_module("reactnative")
+# uninstall_module("shanks_hello")
 # must run
