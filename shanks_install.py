@@ -4,13 +4,17 @@ import os
 import re
 #@auther shanks
 # config
+
 PATH_ROUTER_INIT = "app/src/main/java/com/shanks/auctiondemo/RouterInit.java"
+
 # routerInit template path
+
 PATH_ROUTER_INIT_TEMPLATE = "RouterInit.java"
+
 STR_INIT_TEMPLATE = "new com.shanks.{module}.RouterRegister().init();"
-Package_module = "com.shanks"
 
 Settings_gradle = 'settings.gradle'
+
 App_build_gradle = 'app/build.gradle'
 # Global_Dict={package:'com.shanks',routerInit:'RouterInit.java'}
 
@@ -119,6 +123,7 @@ def render_build_gradle(name):
         content = content + str
     file.close()
 
+
 def check_build_gradle(content, line, file, name):
     shanks_print('check_build_gradle', '*')
     replace = "compile project(\":{module}\")".replace('{module}', name)
@@ -142,9 +147,9 @@ def check_build_gradle(content, line, file, name):
                 str = str.replace('}', '\n    ' + replace + '\n}')
             content = content + str
             break
-        #shanks_print(str,"%%%%")
+        # shanks_print(str,"%%%%")
         if replace in str:
-            shanks_print(str,"%%%%")
+            shanks_print(str, "%%%%")
             file.close()
             return
         content = content + str
@@ -208,7 +213,7 @@ def remove_module_from_file(name, path, replace):
     while str:
         if name in str:
             shanks_print(str, '*')
-            strTemp=str.strip()
+            strTemp = str.strip()
             str = re.sub(regex, '', strTemp)
             print str
             print strTemp
@@ -250,9 +255,35 @@ def remove_force_module(name):
             print path
             os.remove(path)
 
+# init  something
+
+
+def init():
+    shanks_print('init start', "%")
+    file = open('shanks/app.properties', 'r')
+    line = file.readline()
+    mapResult = {}
+    while line:
+        result = line.strip().split('=', 1)
+        if(len(result) == 2):
+            print result
+            mapResult[result[0].strip()] = result[1].strip()
+        line = file.readline()
+    # com/shanks/auctiondemo
+    PackagePath = mapResult['Package'].replace('.', '/')
+    global PATH_ROUTER_INIT
+    PATH_ROUTER_INIT = PATH_ROUTER_INIT.replace(
+        'com/shanks/auctiondemo', PackagePath + '/' + mapResult['MainModule'])
+    print PATH_ROUTER_INIT
+    global STR_INIT_TEMPLATE
+    print STR_INIT_TEMPLATE
+    STR_INIT_TEMPLATE = STR_INIT_TEMPLATE.replace(
+        'com.shanks', mapResult['Package'])
+    file.close()
+init()
 # install_module("mylibraryssslll")
-install_module("mylibrary")
-#install_module("map")
+# install_module("mylibrary")
+# install_module("map")
    # compile project(":mylibrary")
    #  compile project(":reactnative")
    #  compile project(":shanks_hello")
