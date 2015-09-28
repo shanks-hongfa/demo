@@ -289,5 +289,6 @@ init()
    #  compile project(":shanks_hello")
 # uninstall_module("mylibrary")
 # uninstall_module("reactnative")
-# uninstall_module("shanks_hello")
+uninstall_module("shanks_hello")
+
 # must run

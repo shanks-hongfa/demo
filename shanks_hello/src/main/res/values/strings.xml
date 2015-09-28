@@ -1,6 +1,0 @@
-<resources>
-    <string name="shanks_hello_app_name">shanks_hello</string>
-
-    <string name="shanks_hello_hello_world">Hello world!</string>
-    <string name="shanks_hello_action_settings">Settings</string>
-</resources>
