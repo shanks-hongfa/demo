@@ -4,7 +4,7 @@ import os
 import re
 #@auther shanks
 # config
-PATH_ROUTER_INIT = "app/src/main/java/com/paimai/auctiondemo/RouterInit.java"
+PATH_ROUTER_INIT = "app/src/main/java/com/shanks/auctiondemo/RouterInit.java"
 # routerInit template path
 PATH_ROUTER_INIT_TEMPLATE = "RouterInit.java"
 STR_INIT_TEMPLATE = "new com.shanks.{module}.RouterRegister().init();"
@@ -251,7 +251,7 @@ def remove_force_module(name):
             os.remove(path)
 
 # install_module("mylibraryssslll")
-#install_module("test")
+install_module("mylibrary")
 #install_module("map")
    # compile project(":mylibrary")
    #  compile project(":reactnative")

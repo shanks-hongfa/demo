@@ -1,4 +1,4 @@
-package com.paimai.auctiondemo.demo.Activity;
+package com.shanks.auctiondemo.demo.Activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.EditText;
 
 import com.paimai.auctiondemo.R;
-import com.paimai.auctiondemo.demo.View.AuctionProgressBar;
+import com.shanks.auctiondemo.demo.View.AuctionProgressBar;
 
 import java.util.ArrayList;
 import java.util.List;

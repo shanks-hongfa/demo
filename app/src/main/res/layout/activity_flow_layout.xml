@@ -4,9 +4,9 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.paimai.auctiondemo.demo.Activity.FlowLayoutActivity">
+    tools:context="com.shanks.auctiondemo.demo.Activity.FlowLayoutActivity">
 
-    <com.paimai.auctiondemo.demo.View.FlowLayout
+    <com.shanks.auctiondemo.demo.View.FlowLayout
         android:id="@+id/flow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -69,7 +69,7 @@
             android:padding="4dp"
             android:background="@drawable/select_item_background"
             android:text="13113445454532" />
-    </com.paimai.auctiondemo.demo.View.FlowLayout>
+    </com.shanks.auctiondemo.demo.View.FlowLayout>
 
     <Button
         android:id="@+id/btn"

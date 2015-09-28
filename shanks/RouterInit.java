@@ -1,4 +1,4 @@
-package com.paimai.auctiondemo;
+package com.shanks.auctiondemo;
 
 /**
  * Created by shanksYao on 9/16/15.

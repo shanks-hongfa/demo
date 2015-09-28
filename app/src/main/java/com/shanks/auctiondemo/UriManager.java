@@ -1,4 +1,4 @@
-package com.paimai.auctiondemo;
+package com.shanks.auctiondemo;
 
 import android.content.Context;
 import android.widget.Toast;

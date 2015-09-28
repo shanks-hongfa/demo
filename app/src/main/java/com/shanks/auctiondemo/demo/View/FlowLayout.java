@@ -1,4 +1,4 @@
-package com.paimai.auctiondemo.demo.View;
+package com.shanks.auctiondemo.demo.View;
 
 import android.content.Context;
 import android.util.AttributeSet;

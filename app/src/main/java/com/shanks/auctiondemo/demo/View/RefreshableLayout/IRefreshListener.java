@@ -1,4 +1,4 @@
-package com.paimai.auctiondemo.demo.View.RefreshableLayout;
+package com.shanks.auctiondemo.demo.View.RefreshableLayout;
 
 /**
  * Created by moxun on 15/9/9.

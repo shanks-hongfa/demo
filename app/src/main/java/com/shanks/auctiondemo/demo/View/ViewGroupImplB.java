@@ -1,11 +1,11 @@
-package com.paimai.auctiondemo.demo.View;
+package com.shanks.auctiondemo.demo.View;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.widget.LinearLayout;
 
-import com.paimai.auctiondemo.demo.Utils.LogUtil;
+import com.shanks.auctiondemo.demo.Utils.LogUtil;
 
 /**
  * Created by moxun on 15/9/9.

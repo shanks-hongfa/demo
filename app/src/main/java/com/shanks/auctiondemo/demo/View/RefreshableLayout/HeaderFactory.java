@@ -1,4 +1,4 @@
-package com.paimai.auctiondemo.demo.View.RefreshableLayout;
+package com.shanks.auctiondemo.demo.View.RefreshableLayout;
 
 import android.content.Context;
 import android.view.LayoutInflater;

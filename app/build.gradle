@@ -31,5 +31,6 @@ dependencies {
     compile 'com.taobao.android:phenix:2.2.1'
     compile project(":urirouter")
     compile project(":goldmap")
+    compile project(":mylibrary")
 }
 /////gradle how to do something

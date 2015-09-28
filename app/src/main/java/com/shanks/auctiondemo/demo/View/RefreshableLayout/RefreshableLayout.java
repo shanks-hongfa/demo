@@ -1,4 +1,4 @@
-package com.paimai.auctiondemo.demo.View.RefreshableLayout;
+package com.shanks.auctiondemo.demo.View.RefreshableLayout;
 
 import android.content.Context;
 import android.os.AsyncTask;
@@ -14,7 +14,7 @@ import android.view.WindowManager;
 import android.widget.AbsListView;
 import android.widget.LinearLayout;
 
-import com.paimai.auctiondemo.demo.Utils.dp2px;
+import com.shanks.auctiondemo.demo.Utils.dp2px;
 
 /**
  * Created by moxun on 15/9/9.

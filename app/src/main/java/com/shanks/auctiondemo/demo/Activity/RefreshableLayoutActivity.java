@@ -1,4 +1,4 @@
-package com.paimai.auctiondemo.demo.Activity;
+package com.shanks.auctiondemo.demo.Activity;
 
 import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
@@ -15,10 +15,10 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.paimai.auctiondemo.R;
-import com.paimai.auctiondemo.demo.Utils.LogUtil;
-import com.paimai.auctiondemo.demo.View.RefreshableLayout.HeaderFactory;
-import com.paimai.auctiondemo.demo.View.RefreshableLayout.IRefreshListener;
-import com.paimai.auctiondemo.demo.View.RefreshableLayout.RefreshableLayout;
+import com.shanks.auctiondemo.demo.Utils.LogUtil;
+import com.shanks.auctiondemo.demo.View.RefreshableLayout.HeaderFactory;
+import com.shanks.auctiondemo.demo.View.RefreshableLayout.IRefreshListener;
+import com.shanks.auctiondemo.demo.View.RefreshableLayout.RefreshableLayout;
 
 import java.util.ArrayList;
 import java.util.List;

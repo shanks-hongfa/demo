@@ -1,4 +1,4 @@
-package com.paimai.auctiondemo.demo.Activity;
+package com.shanks.auctiondemo.demo.Activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.paimai.auctiondemo.R;
-import com.paimai.auctiondemo.demo.Utils.dp2px;
+import com.shanks.auctiondemo.demo.Utils.dp2px;
 
 import java.util.Random;
 

@@ -1,1 +1,1 @@
-include ':app', ':urirouter', ':goldmap'
+include ':app', ':urirouter', ':goldmap', ':mylibrary'

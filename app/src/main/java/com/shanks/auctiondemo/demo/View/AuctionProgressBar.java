@@ -1,4 +1,4 @@
-package com.paimai.auctiondemo.demo.View;
+package com.shanks.auctiondemo.demo.View;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -15,7 +15,7 @@ import android.view.View;
 import android.view.WindowManager;
 
 import com.paimai.auctiondemo.R;
-import com.paimai.auctiondemo.demo.Utils.dp2px;
+import com.shanks.auctiondemo.demo.Utils.dp2px;
 
 import java.util.HashMap;
 import java.util.Iterator;

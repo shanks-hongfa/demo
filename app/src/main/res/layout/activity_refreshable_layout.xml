@@ -1,8 +1,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context="com.paimai.auctiondemo.demo.Activity.RefreshableLayoutActivity">
-    <com.paimai.auctiondemo.demo.View.RefreshableLayout.RefreshableLayout
+    tools:context="com.shanks.auctiondemo.demo.Activity.RefreshableLayoutActivity">
+    <com.shanks.auctiondemo.demo.View.RefreshableLayout.RefreshableLayout
         android:id="@+id/refresh_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -10,5 +10,5 @@
             android:id="@+id/refresh_content"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
-    </com.paimai.auctiondemo.demo.View.RefreshableLayout.RefreshableLayout>
+    </com.shanks.auctiondemo.demo.View.RefreshableLayout.RefreshableLayout>
 </RelativeLayout>

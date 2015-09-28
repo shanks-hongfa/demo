@@ -1,7 +1,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.paimai.auctiondemo.demo.Activity.TouchSystemTestActivity">
+    tools:context="com.shanks.auctiondemo.demo.Activity.TouchSystemTestActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -9,7 +9,7 @@
         android:text="Activity"
         android:textColor="#FF000000"/>
 
-    <com.paimai.auctiondemo.demo.View.ViewGroupImplA
+    <com.shanks.auctiondemo.demo.View.ViewGroupImplA
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="40dp"
@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:text="LinearLayout Outer"
             android:textColor="#FFFFFFFF"/>
-        <com.paimai.auctiondemo.demo.View.ViewGroupImplB
+        <com.shanks.auctiondemo.demo.View.ViewGroupImplB
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="40dp"
@@ -31,14 +31,14 @@
                 android:layout_height="wrap_content"
                 android:text="LinearLayout Inner"
                 android:textColor="#FF000000"/>
-            <com.paimai.auctiondemo.demo.View.ViewImpl
+            <com.shanks.auctiondemo.demo.View.ViewImpl
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="40dp"
                 android:background="#FFFF0000"/>
-        </com.paimai.auctiondemo.demo.View.ViewGroupImplB>
+        </com.shanks.auctiondemo.demo.View.ViewGroupImplB>
 
-    </com.paimai.auctiondemo.demo.View.ViewGroupImplA>
+    </com.shanks.auctiondemo.demo.View.ViewGroupImplA>
 
 
     <TextView

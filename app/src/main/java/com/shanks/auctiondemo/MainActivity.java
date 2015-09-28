@@ -1,4 +1,4 @@
-package com.paimai.auctiondemo;
+package com.shanks.auctiondemo;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,14 +8,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.paimai.auctiondemo.demo.Activity.FlowLayoutActivity;
-import com.paimai.auctiondemo.demo.Activity.PhenixActivity;
-import com.paimai.auctiondemo.demo.Activity.ProgressBarActivity;
-import com.paimai.auctiondemo.demo.Activity.RefreshableLayoutActivity;
-import com.paimai.auctiondemo.demo.Activity.TouchSystemTestActivity;
-import com.paimai.auctiondemo.demo.Activity.UIKitTestActivity;
-import com.paimai.auctiondemo.demo.Utils.dp2px;
-import com.paimai.auctiondemo.demo.View.RefreshableLayout.RefreshableLayout;
+import com.paimai.auctiondemo.R;
+import com.shanks.auctiondemo.demo.Activity.FlowLayoutActivity;
+import com.shanks.auctiondemo.demo.Activity.PhenixActivity;
+import com.shanks.auctiondemo.demo.Activity.ProgressBarActivity;
+import com.shanks.auctiondemo.demo.Activity.RefreshableLayoutActivity;
+import com.shanks.auctiondemo.demo.Activity.TouchSystemTestActivity;
+import com.shanks.auctiondemo.demo.Activity.UIKitTestActivity;
+import com.shanks.auctiondemo.demo.Utils.dp2px;
+import com.shanks.auctiondemo.demo.View.RefreshableLayout.RefreshableLayout;
 
 
 public class MainActivity extends Activity {

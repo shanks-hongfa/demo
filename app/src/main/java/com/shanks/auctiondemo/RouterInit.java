@@ -1,4 +1,4 @@
-package com.paimai.auctiondemo;
+package com.shanks.auctiondemo;
 
 /**
  * Created by shanksYao on 9/16/15.
@@ -9,5 +9,6 @@ public class RouterInit {
 
     public static void init() {
        new com.shanks.goldmap.RouterRegister().init();
+       new com.shanks.mylibrary.RouterRegister().init();
     }
 }

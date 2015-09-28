@@ -1,4 +1,4 @@
-package com.paimai.auctiondemo.demo.Activity;
+package com.shanks.auctiondemo.demo.Activity;
 
 import android.app.Activity;
 import android.os.Bundle;

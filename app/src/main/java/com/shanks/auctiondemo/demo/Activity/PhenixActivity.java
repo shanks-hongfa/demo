@@ -1,4 +1,4 @@
-package com.paimai.auctiondemo.demo.Activity;
+package com.shanks.auctiondemo.demo.Activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

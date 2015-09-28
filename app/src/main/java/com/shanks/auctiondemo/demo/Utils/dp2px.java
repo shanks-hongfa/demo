@@ -1,4 +1,4 @@
-package com.paimai.auctiondemo.demo.Utils;
+package com.shanks.auctiondemo.demo.Utils;
 
 import android.content.Context;
 
