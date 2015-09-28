@@ -32,5 +32,6 @@ dependencies {
     compile project(":urirouter")
     compile project(":goldmap")
     compile project(":mylibrary")
+    compile project(":base")
 }
 /////gradle how to do something

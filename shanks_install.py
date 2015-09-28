@@ -290,5 +290,6 @@ init()
 # uninstall_module("mylibrary")
 # uninstall_module("reactnative")
 uninstall_module("shanks_hello")
-
+uninstall_module("live")
+install_module("base")
 # must run

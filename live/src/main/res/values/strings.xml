@@ -1,6 +1,0 @@
-<resources>
-    <string name="live_app_name">live</string>
-
-    <string name="live_hello_world">Hello world!</string>
-    <string name="live_action_settings">Settings</string>
-</resources>

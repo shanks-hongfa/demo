@@ -10,5 +10,6 @@ public class RouterInit {
     public static void init() {
        new com.shanks.goldmap.RouterRegister().init();
        new com.shanks.mylibrary.RouterRegister().init();
+       new com.shanks.base.RouterRegister().init();
     }
 }
